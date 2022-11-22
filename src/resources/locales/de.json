@@ -1,0 +1,227 @@
+{
+    "accessibility": {
+        "bookMenu": "Menü",
+        "closeDialog": "Schließen",
+        "homeMenu": "Startmenü",
+        "importFile": "Importieren einer EPUB-Datei",
+        "leftSlideButton": "Scrolle nach links unten",
+        "rightSlideButton": "Scrolle nach rechts unten",
+        "searchBook": "Suche nach einem Buch, einem Tag oder einer Art von Literatur",
+        "skipLink": "Gehe zum Inhalt"
+    },
+    "app": {
+        "edit": {
+            "copy": "Kopieren",
+            "cut": "Ausschneiden",
+            "paste": "Einfügen",
+            "redo": "Wiederherstellen",
+            "selectAll": "Alle auswählen",
+            "title": "Bearbeiten",
+            "undo": "Rückgängig"
+        },
+        "quit": "Beenden"
+    },
+    "catalog": {
+        "about": {
+            "button": "",
+            "title": ""
+        },
+        "addBookToLib": "Import",
+        "addTags": "Ein Tag hinzufügen",
+        "addTagsButton": "Hinzufügen",
+        "allBooks": "Alle Bücher",
+        "bookInfo": "Über dieses Buch",
+        "delete": "Löschen",
+        "deleteBook": "Löschen",
+        "deleteTag": "Löschen des Tags",
+        "description": "Beschreibung",
+        "emptyTagList": "Es gibt keine Tags in Ihren Büchern.",
+        "entry": {
+            "continueReading": "Lesen Sie weiter",
+            "lastAdditions": "Neueste Ergänzungen"
+        },
+        "export": "Export",
+        "id": "Benutzername",
+        "lang": "Sprache",
+        "moreInfo": "Mehr Informationen",
+        "myBooks": "Meine Bücher",
+        "noPublicationHelpL1": "EPUB-Dateien in dieses Fenster ziehen",
+        "noPublicationHelpL2": "oder über den Button \"+\" hinzufügen.",
+        "noPublicationHelpL3": "LCP-geschützte Dateien werden unterstützt.",
+        "publisher": "Herausgeber",
+        "readBook": "Lesen",
+        "released": "Veröffentlicht am",
+        "sort": "Sortieren nach",
+        "tagCount": "Anzahl der Tags",
+        "tags": "Tags"
+    },
+    "dialog": {
+        "closeModalWindow": "Dieses Fenster schließen",
+        "deleteFeed": "Willst du diesen Katalog wirklich löschen?",
+        "deletePublication": "Willst du diese Publikation wirklich löschen?",
+        "import": "Willst du diese EPUB-Dateien wirklich importieren?",
+        "importError": "Ein Fehler ist aufgetreten, überprüfen Sie die Dateiendung (.epub or .lcpl).",
+        "no": "Nein",
+        "renew": "",
+        "return": "",
+        "yes": "Ja"
+    },
+    "header": {
+        "allBooks": "Alle Bücher",
+        "books": "Meine Bücher",
+        "catalogs": "Kataloge",
+        "downloads": "Downloads",
+        "gridTitle": "Bücher in einem Raster präsentieren",
+        "home": "Hauptmenü",
+        "importTitle": "ein Buch importieren",
+        "listTitle": "Bücher in einer Liste präsentieren",
+        "searchPlaceholder": "Suche",
+        "searchTitle": "Suche starten",
+        "settings": "Einstellungen"
+    },
+    "library": {
+        "lcp": {
+            "cancel": "Abbrechen",
+            "hint": "Dein Kennwort",
+            "password": "",
+            "sentence": "Diese LCP-geschütze Publikation benötigt zum Öffnen ein Password: ",
+            "submit": "Absenden"
+        }
+    },
+    "message": {
+        "download": {
+            "error": "Der Download von {{- title}} ist fehlgeschlagen: [{{- err}}]",
+            "start": "Der Download von {{- title}} hat begonnen",
+            "success": "Der Download von {{- title}} wurde abgeschlossen"
+        },
+        "import": {
+            "alreadyImport": "Der Import von {{- title}} Es scheint, dass Sie diese Publikation bereits in Ihren Katalog aufgenommen haben.",
+            "fail": "Der Import von {{- path}} ist fehlgeschlagen. Stellen Sie sicher, dass die Datei gültig ist.",
+            "success": "Der Import von {{- title}} ist abgeschlossen."
+        }
+    },
+    "opds": {
+        "addForm": {
+            "addButton": "Hinzufügen",
+            "name": "Feed-Name:",
+            "namePlaceholder": "",
+            "title": "Feed hinzufügen",
+            "url": "Feed-Link:",
+            "urlPlaceholder": ""
+        },
+        "addMenu": "OPDS-Feed hinzufügen",
+        "back": "Zurück",
+        "breadcrumbRoot": "",
+        "empty": "Keine Publikation gefunden",
+        "firstPage": "Zuerst",
+        "lastPage": "Zuletzt",
+        "menu": {
+            "aboutBook": "Über dieses Buch",
+            "addExtract": "Zur Bibliothek hinzufügen",
+            "goBuyBook": "Dieses Buch kaufen",
+            "goLoanBook": "Dieses Buch ausleihen",
+            "goSubBook": "Abonnieren"
+        },
+        "network": {
+            "error": "Ein Fehler ist aufgetreten",
+            "noInternet": "Kein Internet",
+            "noInternetMessage": "Versuchen Sie: Überprüfen Sie das Netzwerkkabel, das Modem, den Router oder das WLAN",
+            "reject": "Beim Versuch, den OPDS-Feed zu verarbeiten, ist ein unerwarteter Fehler aufgetreten.",
+            "timeout": "Es ist eine Netzwerk-Zeitüberschreitung aufgetreten. Bitte versuchen Sie es später erneut"
+        },
+        "next": "Nächster",
+        "previous": "Bisherige"
+    },
+    "publication": {
+        "cancelledLcp": "",
+        "certificateRevoked": "",
+        "certificateSignatureInvalid": "",
+        "expiredLcp": "",
+        "lcpEnd": "",
+        "lcpRightsCopy": "",
+        "lcpRightsPrint": "",
+        "lcpStart": "",
+        "licenseOutOfDate": "",
+        "licenseSignatureDateInvalid": "",
+        "licenseSignatureInvalid": "",
+        "renewButton": "Verlängern",
+        "returnButton": "Zurückgeben",
+        "returnedLcp": "",
+        "revokedLcp": "",
+        "seeLess": "Weniger Infos",
+        "seeMore": "Mehr Infos",
+        "userKeyCheckInvalid": ""
+    },
+    "reader": {
+        "footerInfo": {
+            "lessInfo": "Weniger Informationen",
+            "moreInfo": "Mehr Informationen"
+        },
+        "marks": {
+            "annotations": "Meine Anmerkungen",
+            "bookmarks": "Meine Lesezeichen",
+            "delete": "Löschen",
+            "edit": "Bearbeiten",
+            "landmarks": "Navigationspunkte",
+            "toc": "Inhaltsverzeichnis"
+        },
+        "navigation": {
+            "backHomeTitle": "Zurück zum Bücherregal",
+            "bookmarkTitle": "Lesezeichen setzen",
+            "detachWindowTitle": "Fenster loslösen",
+            "fullscreenTitle": "Vollbildmodus",
+            "goTo": "Gehe zu",
+            "goToError": "Diese Seite existiert nicht",
+            "goToPlaceHolder": "Gehe zur Seite",
+            "goToTitle": "Gehe zur Seite",
+            "infoTitle": "Informationen",
+            "openTableOfContentsTitle": "Navigation",
+            "quitFullscreenTitle": "Vollbildmodus beenden",
+            "readBookTitle": "Mit dem Lesen des Buches beginnen",
+            "settingsTitle": "Einstellungen"
+        },
+        "settings": {
+            "column": {
+                "auto": "Automatisch",
+                "one": "1 Spalte",
+                "oneTitle": "1 Spalte",
+                "title": "Spaltendarstellung",
+                "two": "2 Spalten",
+                "twoTitle": "2 Spalten"
+            },
+            "display": "Lesefluss",
+            "disposition": {
+                "title": ""
+            },
+            "font": "Schriftart",
+            "fontSize": "Schriftgröße:",
+            "justification": "Textausrichtung",
+            "justify": "Blocksatz",
+            "letterSpacing": "Buchstabenabstand",
+            "lineSpacing": "Zeilenabstand",
+            "margin": "Seitenränder",
+            "paginated": "Seitendarstellung",
+            "scrolled": "Fortlaufend",
+            "spacing": "Abstand",
+            "text": "Text",
+            "theme": {
+                "name": {
+                    "Neutral": "Neutral",
+                    "Night": "Nachtzeit",
+                    "Sepia": "Sepia"
+                },
+                "title": "Motiv"
+            },
+            "wordSpacing": "Wortabstand"
+        },
+        "svg": {
+            "left": "",
+            "right": ""
+        }
+    },
+    "settings": {
+        "language": {
+            "languageChoice": "Sprachauswahl"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "EDRLab.ThoriumReader",
+  "version": "1.0.6-rc.0",
+  "description": "Desktop application to read ebooks",
+  "keywords": [
+    "readium",
+    "epub"
+  ],
+  "main": "./main.js",
+  "scripts": {
+    "postinstall": "npm run rmLevelDownPrebuilds && npm rebuild --runtime=electron --target=7.1.1 --disturl=https://atom.io/download/atom-shell --build-from-source && npm run rmLevelDown",
+    "rmLevelDown": "rimraf \"./node_modules/pouchdb-adapter-leveldb/node_modules/leveldown\"",
+    "rmLevelDownPrebuilds": "rimraf \"./node_modules/leveldown/prebuilds\" && rimraf \"./dist/node_modules/leveldown/prebuilds\" && rimraf \"./node_modules/pouchdb-adapter-leveldb/node_modules/leveldown/prebuilds\" && rimraf \"./dist/node_modules/pouchdb-adapter-leveldb/node_modules/leveldown/prebuilds\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:edrlab/readium-desktop.git"
+  },
+  "author": {
+    "name": "EDRLab",
+    "organization": "EDRLab",
+    "email": "contact@edrlab.org",
+    "url": "http://github.com/edrlab/"
+  },
+  "license": "BSD-3-Clause",
+  "licenses": [
+    {
+      "type": "BSD-3-Clause",
+      "url": "http://opensource.org/licenses/BSD-3-Clause"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/edrlab/readium-desktop/issues"
+  },
+  "homepage": "https://github.com/edrlab/readium-desktop",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "leveldown": "^5.4.1",
+    "mathjax": "^3.0.0",
+    "pouchdb-adapter-leveldb": "^7.1.1",
+    "yargs": "^15.0.2"
+  },
+  "devDependencies": {
+  },
+  "optionalDependencies": {}
+}
